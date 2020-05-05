@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     font-family: sans-serif;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+#header-container {
+    height: 50px;
+    /* border: 1px solid black; */
+}
+.menu-left {
+    padding: 10px 10px;
+    float: left;
+}
+.menu-left li {
+    display: inline-block;
+    padding-right: 10px;
+}
+.menu-right {
+    padding: 10px 10px;
+    float: right;
+}
+.menu-right li {
+    display: inline-block;
+    padding-right: 10px;
+}
