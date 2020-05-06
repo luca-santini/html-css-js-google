@@ -44,6 +44,9 @@ a {
     padding: 20px;
     text-align: left;
 }
+.dropdown > li > i {
+    display: inline-block;
+}
 .button {
   background-color: blue;
   border: none;

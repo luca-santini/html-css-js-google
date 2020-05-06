@@ -6,13 +6,6 @@ $(document).ready(function() {
         var sottomenu = $(this).next('.dropdown');
         // funzione jquery per mostrare il menu al posto dell'if
         sottomenu.toggle();
-    // if(sottomenu.is(':visible')) {
-    //     // se sì => ho cliccato la stessa voce per chiuderlo
-    //     sottomenu.hide();
-    // } else {
-    //     // visualizzo il menu dropdown
-    //     sottomenu.show();
-    // }
 });
 
 });
