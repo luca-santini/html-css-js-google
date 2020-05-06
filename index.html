@@ -8,34 +8,79 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     </head>
     <body>
-        <header>
-            <div id="header-container">
-                <div class="menu-left">
-                        <ul>
-                            <li><a href="#">Chi siamo</a></li>
-                            <li><a href="#">Google Store</a></li>
-                        </ul>
-                    </div> <!-- div menu left -->
-                <div class="menu-right">
-                        <ul>
-                            <li><a href="#">Gmail</a></li>
-                            <li><a href="#">Immagini</a></li>
-                            <li><a id="menu-cliccabile" href="#"><i class="fas fa-th"></i></a>
-                                <ul class="dropdown">
-                                    <li><a href="#">Maps</a></li>
-                                    <li><a href="#">News</a></li>
-                                    <li><a href="#">Play</a></li>
-                                    <li><a href="#">Calendar</a></li>
-                                    <li><a href="#">Traduttore</a></li>
-                                    <li><a href="#">Drive</a></li>
-                                </ul>
-                            </li>
-                            <button class="button" type="button">Accedi</button>
-                        </ul>
-                    </div> <!-- div menu right -->
-            </div> <!-- div header-container -->
-        </header>
-
+        <div id="container">
+            <header>
+                <div id="header-container">
+                    <div class="menu-left">
+                            <ul>
+                                <li><a href="#">Chi siamo</a></li>
+                                <li><a href="#">Google Store</a></li>
+                            </ul>
+                        </div> <!-- div menu left -->
+                    <div class="menu-right">
+                            <ul>
+                                <li><a href="#">Gmail</a></li>
+                                <li><a href="#">Immagini</a></li>
+                                <li><a id="menu-cliccabile" href="#"><i class="fas fa-th"></i></a>
+                                    <ul class="dropdown">
+                                        <li><a href="#">Maps</a></li>
+                                        <li><a href="#">News</a></li>
+                                        <li><a href="#">Play</a></li>
+                                        <li><a href="#">Calendar</a></li>
+                                        <li><a href="#">Traduttore</a></li>
+                                        <li><a href="#">Drive</a></li>
+                                    </ul>
+                                </li>
+                                <button class="button" type="button">Accedi</button>
+                            </ul>
+                        </div> <!-- div menu right -->
+                </div> <!-- div header-container -->
+            </header>
+        <main>
+        </main>
+        <footer>
+            <div id="footer-container">
+                <section id="privacy">
+                    <div class="menu-left">
+                            <ul>
+                                <li><i class="fas fa-user-circle"></i></li>
+                                <li id="promemoria">Promemoria sulla privacy di Google</li>
+                            </ul>
+                        </div> <!-- div menu left -->
+                    <div class="menu-right">
+                            <ul>
+                                <li id="reminder">Ricordamelo più tardi</li>
+                                <button id="button-privacy" type="button">Leggi ora</button>
+                            </ul>
+                        </div> <!-- div menu right -->
+                </section> <!-- div privacy -->
+                <section class="grey">
+                    <div class="menu-left">
+                            <ul>
+                                <li><a href="#">Italia</a></li>
+                            </ul>
+                        </<div> <!-- div menu left -->
+                </section> <!-- section top -->
+                <section class="grey">
+                    <div class="menu-left">
+                            <ul>
+                                <li><a href="#">Pubblicità</a></li>
+                                <li><a href="#">Soluzioni aziendali</a></li>
+                                <li><a href="#">Come funziona la ricerca</a></li>
+                            </ul>
+                        </div>
+                        </<section> <!-- section middle -->
+                    <div class="menu-right">
+                            <ul>
+                                <li><a href="#">Privacy</a></li>
+                                <li><a href="#">Termini</a></li>
+                                <li><a href="#">Informazioni</a></li>
+                            </ul>
+                        </div> <!-- div menu right -->
+                </section> <!-- section bottom  -->
+            </div> <!-- footer-container -->
+        </footer>
+    </div> <!-- div container -->
         <script src="main.js"></script>
     </body>
 </html>
